@@ -10,7 +10,9 @@ public class Main
             {10, 17, 20, 19, 1},
             {18, 22, 30, 25, 6}
         };
+
         GridPath one = new GridPath(nums);
+        
         System.out.println(one);
     }
 }
