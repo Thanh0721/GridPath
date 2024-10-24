@@ -1,17 +1,21 @@
-public class Location {
+public class Location 
+{
     private int theRow;
     private int theCol;
 
-    public Location(int r, int c) {
+    public Location(int r, int c) 
+    {
         theRow = r;
         theCol = c;
     }
 
-    public int getRow() {
+    public int getRow() 
+    {
         return theRow;
     }
 
-    public int getCol() {
+    public int getCol() 
+    {
         return theCol;
     }
 }
