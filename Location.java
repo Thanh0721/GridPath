@@ -5,8 +5,8 @@ public class Location
 
     public Location(int r, int c) 
     {
-        theRow = r;
-        theCol = c;
+        this.theRow = r;
+        this.theCol = c;
     }
 
     public int getRow() 
